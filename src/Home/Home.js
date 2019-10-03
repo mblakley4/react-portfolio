@@ -5,6 +5,7 @@ export default class Home extends Component {
   state = {
     APOD: '',
     explanation: '',
+    loading: true
   }
 
   componentDidMount() {
@@ -22,7 +23,8 @@ export default class Home extends Component {
     .then(res => {
       this.setState({
         APOD: res.url,
-        explanation: res.explanation
+        explanation: res.explanation,
+        loading: false,
       })
     }
     )
@@ -30,6 +32,7 @@ export default class Home extends Component {
   }
 
   render() {
+    const { loading } = this.state
     return (
       <div className='homePage'>
         <h2>FULL STACK DEVELOPER</h2>
@@ -47,11 +50,14 @@ export default class Home extends Component {
         </p>
 
         <h3>NASA's Daily Space Image:</h3>
-        <img
-          src={this.state.APOD}
-          className='nasa-img'
-          alt='NASA daily'
-        />
+        {loading ?
+          <div>Loading...</div> :
+          <img
+            src={this.state.APOD}
+            className='nasa-img'
+            alt='NASA daily'
+          />
+        }
         <p>{this.state.explanation}</p>
       </div>
     );
