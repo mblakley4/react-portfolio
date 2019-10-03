@@ -9,14 +9,10 @@ export default class Home extends Component {
 
   componentDidMount() {
     const url = config.API_URL + config.API_KEY;
-    console.log(config.API_KEY);
-    console.log(url);
-    console.log(process.env);
-    fetch(config.API_URL, {
+    fetch(url, {
       method: 'GET'
     })
     .then(res => {
-      console.log(res);
       if (!res.ok) {
         throw new Error(res.status)
       }
@@ -24,8 +20,6 @@ export default class Home extends Component {
     })
     .then(res => res.json())
     .then(res => {
-      console.log(res);
-      const dailyPic = res.url
       this.setState({
         APOD: res.url,
         explanation: res.explanation

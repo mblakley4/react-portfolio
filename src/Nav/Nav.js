@@ -5,7 +5,7 @@ export default class Nav extends Component {
   render() {
     return (
       <nav role='navigation'>
-        <h1>{'\{mw\}_blakley'}</h1>
+        <h1>{'{mw}_blakley'}</h1>
         <div className ='nav-links'>
           <Link to={'/'}>HOME</Link>
           <Link to={'/projects'}>PROJECTS</Link>
