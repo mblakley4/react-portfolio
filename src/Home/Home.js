@@ -8,6 +8,10 @@ export default class Home extends Component {
   }
 
   componentDidMount() {
+    const url = config.API_URL + config.API_KEY;
+    console.log(config.API_KEY);
+    console.log(url);
+    console.log(process.env);
     fetch(config.API_URL, {
       method: 'GET'
     })
