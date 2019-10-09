@@ -10,11 +10,17 @@ export default class Projects extends Component {
           <h3>PROJECTS</h3>
           <div className='project-container'>
             <div className='project-img'>
-              <img
-                className='crypto-img'
-                src={cryptoInvest}
-                alt='crypto hero'
-              />
+              <a
+                href="https://mblakley4.github.io/cryptoCircadian/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  className='crypto-img'
+                  src={cryptoInvest}
+                  alt='crypto hero'
+                  />
+              </a>
             </div>
             <div className='project-details'>
               <h4>Crypto Circadian</h4>
@@ -42,11 +48,17 @@ export default class Projects extends Component {
           </div>
           <div className='project-container'>
             <div className='project-img'>
-              <img
-                className='gym-img'
-                src={gym}
-                alt='quiz app hero'
-              />
+              <a
+                href="https://mblakley4.github.io/Quiz-App/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  className='gym-img'
+                  src={gym}
+                  alt='quiz app hero'
+                />
+              </a>
             </div>
             <div className='project-details'>
               <h4>Weight Training Knowledge Check</h4>

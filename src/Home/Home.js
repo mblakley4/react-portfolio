@@ -28,7 +28,9 @@ export default class Home extends Component {
       })
     }
     )
-    .catch(error => this.setState({ error }))
+    .catch(error => {
+      return <div>Something went wrong. Try again later</div>
+    })
   }
 
   render() {
