@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import config from '../config'
+import nasaApod from '../images/nasa-apod.jpg'
 
 export default class Home extends Component {
   state = {
@@ -51,16 +52,24 @@ export default class Home extends Component {
         team of web application developers where we can deploy great apps and I can continue to grow professionally.
         </p>
 
+        <div className='nasa-container'>
         <h3>NASA's Daily Space Image:</h3>
-        {loading ?
-          <div>Loading...</div> :
-          <img
-            src={this.state.APOD}
-            className='nasa-img'
-            alt='NASA daily'
-          />
-        }
-        <p>{this.state.explanation}</p>
+        <p>An example API call to a rotating daily image & description from NASA</p>
+          {loading ?
+            <img
+              className='nasa-apod'
+              src={nasaApod}
+              alt='nasa APOD'
+            />
+              :
+            <img
+              src={this.state.APOD}
+              className='nasa-img'
+              alt='NASA daily'
+            />
+          }
+          <p className='APOD-description'>{this.state.explanation}</p>
+        </div>
       </div>
     );
   }

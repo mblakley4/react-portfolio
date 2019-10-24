@@ -36,7 +36,10 @@ nav a:focus {
   left: 10px;
   top: 35%;
   bottom: 35%;
-  width: 4em;
+  width: 4.2em;
+  background: #52A596;
+  height: 290px;
+  border-radius: 100px;
 }
 
 h1 {
@@ -74,14 +77,6 @@ h5 {
   font-weight: 700;
 }
 
-.mockup {
-  height: 300px;
-  width: 50%;
-  float: right;
-  /* display: block; */
-  margin: 25px;
-}
-
 .aboutText {
   margin: 25px 0;
   padding: 20px 0;
@@ -90,8 +85,28 @@ h5 {
   font-style: italic;
 }
 
+h3 {
+  text-align: center;
+}
+
+.nasa-container {
+  text-align: center;
+}
+
 .nasa-img {
   width: 85%;
+  height: 400px;
+  max-width: 700px;
+}
+
+h4 {
+  text-align: left;
+
+}
+.APOD-description {
+  margin: 1em 0;
+  line-height: 1.5;
+  text-align: left;
 }
 
 .project-container {
@@ -122,8 +137,9 @@ h5 {
 }
 
 main {
-  margin: 6em 2em 6em 8em;
+  margin: 6em 8em;
   color: #002622;
+  max-width: 1200px;
 }
 
 .titles {
@@ -219,7 +235,7 @@ footer a:focus {
     display: none;
   }
   main {
-    margin: 10em 1em 10em 2em;
+    margin: 10em 2em;
   }
   .nav-links {
     margin-top: 2em;
