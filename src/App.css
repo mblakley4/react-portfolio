@@ -103,6 +103,12 @@ h4 {
   text-align: left;
 
 }
+
+.nasa-apod {
+  width: 200px;
+  height: 100px;
+}
+
 .APOD-description {
   margin: 1em 0;
   line-height: 1.5;
