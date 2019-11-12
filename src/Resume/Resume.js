@@ -7,7 +7,7 @@ export default class Resume extends Component {
         <section className="experience">
           <h3>EXPERIENCE</h3>
           <h4>Bloc, Jacksonville, Fl<span className='titles'> - Web Developer Apprenticeship</span></h4>
-          <p className='date'>March 2019 - Present (6 months)</p>
+          <p className='date'>March 2019 - Present</p>
           <ul>
             <li>Learned industry best practices and practical software development standards with a
               focus on HTML5, CSS3, JavaScript, React, Node and jQuery</li>

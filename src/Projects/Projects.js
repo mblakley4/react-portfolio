@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import cryptoInvest from '../images/cryptoInvest.jpg'
+import terraApp from '../images/terra_app.png'
 import gym from '../images/gym.jpg'
 
 export default class Projects extends Component {
@@ -8,6 +9,54 @@ export default class Projects extends Component {
       <div className='projectPage'>
         <section>
           <h3>PROJECTS</h3>
+          <div className='project-container'>
+            <div className='project-img'>
+              <a
+                href="https://terra-app.mblakley4.now.sh"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  className='terra-app-img'
+                  src={terraApp}
+                  alt='The Terra Project App'
+                  />
+              </a>
+            </div>
+            <div className='project-details'>
+              <h4>The <em>Terra </em> App</h4>
+              <h4 className='hash1'>#React.js, #Node.js, #PostgreSQL, #CSS3</h4>
+              <p>
+                <span className='hash2'>Full Stack Web Application -</span>
+                Responsive full stack web application built with a React client running on a Node server with PostgreSQL
+                DB management.
+              </p>
+              <a
+                href="https://terra-app.mblakley4.now.sh"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Live Site
+              </a>
+              <span> | </span>
+              <a
+                href="https://github.com/mblakley4/terra-app"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Client GitHub
+              </a>
+              <span> | </span>
+              <a
+                href="https://github.com/mblakley4/terra-api"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Server GitHub
+              </a>
+            </div>
+          </div>
+
           <div className='project-container'>
             <div className='project-img'>
               <a
@@ -46,6 +95,7 @@ export default class Projects extends Component {
               </a>
             </div>
           </div>
+
           <div className='project-container'>
             <div className='project-img'>
               <a
