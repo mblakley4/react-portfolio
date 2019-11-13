@@ -12,7 +12,7 @@ export default class Projects extends Component {
           <div className='project-container'>
             <div className='project-img'>
               <a
-                href="https://terra-app.mblakley4.now.sh"
+                href="https://terra-app.now.sh"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -32,7 +32,7 @@ export default class Projects extends Component {
                 DB management.
               </p>
               <a
-                href="https://terra-app.mblakley4.now.sh"
+                href="https://terra-app.now.sh"
                 target="_blank"
                 rel="noopener noreferrer"
               >
