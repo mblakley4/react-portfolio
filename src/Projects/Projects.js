@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import cryptoInvest from '../images/cryptoInvest.jpg'
 import terraApp from '../images/terra_app.png'
+import beerData from '../images/beerData.png'
 import gym from '../images/gym.jpg'
 
 export default class Projects extends Component {
@@ -9,6 +10,54 @@ export default class Projects extends Component {
       <div className='projectPage'>
         <section>
           <h3>PROJECTS</h3>
+          <div className='project-container'>
+            <div className='project-img'>
+              <a
+                href="https://cbl-app.now.sh/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  className='cbl-app-img'
+                  src={beerData}
+                  alt='The Craft Brew Locker'
+                  />
+              </a>
+            </div>
+            <div className='project-details'>
+              <h4>The Craft Brew Locker</h4>
+              <h4 className='hash1'>#React.js, #Node.js, #PostgreSQL, #CSS3</h4>
+              <p>
+                <span className='hash2'>Full Stack Web Application -</span>
+                Responsive full stack web application built with a React client running on a Node server with PostgreSQL
+                DB management.
+              </p>
+              <a
+                href="https://cbl-app.now.sh/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Live Site
+              </a>
+              <span> | </span>
+              <a
+                href="https://github.com/mblakley4/Craft-Brew-Locker-App"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Client GitHub
+              </a>
+              <span> | </span>
+              <a
+                href="https://github.com/mblakley4/cbl-api"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Server GitHub
+              </a>
+            </div>
+          </div>
+
           <div className='project-container'>
             <div className='project-img'>
               <a
