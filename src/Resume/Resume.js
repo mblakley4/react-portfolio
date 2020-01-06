@@ -7,16 +7,15 @@ export default class Resume extends Component {
         <section className="experience">
           <h3>EXPERIENCE</h3>
           <h4>Bloc, Jacksonville, Fl<span className='titles'> - Web Developer Apprenticeship</span></h4>
-          <p className='date'>March 2019 - Present</p>
+          <p className='date'>April 2019 - December 2019 (9 months)</p>
           <ul>
-            <li>Learned industry best practices and practical software development standards with a
-              focus on HTML5, CSS3, JavaScript, React, Node and jQuery</li>
-            <li>Created and deployed responsive mobile-first applications while learning new languages
-              and frameworks by collaborating several hours every week with a senior web developer</li>
-            <li>Currently developing server-side skills with Node.js, PostgreSQL and Redux</li>
+          <li>Learned industry best practices and practical software development standards with a
+            focus on asynchronous web applications, algorithms and data structures</li>
+          <li>Created and deployed responsive mobile-first applications while learning new languages
+            and frameworks by collaborating every week with a senior web developer</li>
           </ul>
           <h4>Anheuser-Busch, Jacksonville, Fl<span className='titles'> - Business Process Manager</span></h4>
-          <p className='date'>April 2016 - March 2019 (3 years)</p>
+          <p className='date'>April 2016 - April 2019 (3 years 1 month)</p>
           <p>Selected by the Senior Operations Manager to lead the Operations Maintenance Department and
             manage over 60 technicians, salaried employees, and peers after successfully managing process
             improvement and implementation on our Draught Line and Palletizers. Additionally selected over

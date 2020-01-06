@@ -29,8 +29,8 @@ export default class Projects extends Component {
               <h4 className='hash1'>#React.js, #Node.js, #PostgreSQL, #CSS3</h4>
               <p>
                 <span className='hash2'>Full Stack Web Application -</span>
-                Responsive full stack web application built with a React client running on a Node server with PostgreSQL
-                DB management.
+                Responsive full stack web application built with a React client
+                running on a Node server with PostgreSQL database management.
               </p>
               <a
                 href="https://cbl-app.now.sh/"
@@ -77,8 +77,8 @@ export default class Projects extends Component {
               <h4 className='hash1'>#React.js, #Node.js, #PostgreSQL, #CSS3</h4>
               <p>
                 <span className='hash2'>Full Stack Web Application -</span>
-                Responsive full stack web application built with a React client running on a Node server with PostgreSQL
-                DB management.
+                Deployed full stack web application built on a NodeJS API. This app
+                features a collection of libraries including testing with Mocha, Chai, and SuperTest.
               </p>
               <a
                 href="https://terra-app.now.sh"

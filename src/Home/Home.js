@@ -47,8 +47,8 @@ export default class Home extends Component {
           <span className='hash2'>#liftweights </span>
           <span className='hash3'>#soccerdad </span>
         </p>
-        <p className='aboutText'>I became an engineer to creatively solve problems and develop solutions.
-        Now I develop web applications for the same purpose.  I'm excited to get involved with a great
+        <p className='aboutText'>I became an engineer to creatively solve technical problems.
+        Now I develop web applications with the same purpose.  I'm excited to get involved with a great
         team of web application developers where we can deploy great apps and I can continue to grow professionally.
         </p>
 
